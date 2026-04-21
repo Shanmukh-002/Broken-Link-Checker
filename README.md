@@ -1,14 +1,14 @@
 # Broken Link Checker
 
-Production-style broken link checker built with Python, Docker, and Streamlit.
+A Python-based tool that crawls websites and automatically detects broken links. It checks both internal and external URLs, validates them efficiently, and presents results through an interactive dashboard.
 
 ## Features
 - Crawl a website starting from a root URL
 - Check internal and external links
 - Concurrent HTTP validation
 - CSV export for broken links
-- Streamlit dashboard
-- Dockerized deployment
+- Interactive Streamlit dashboard for visualization
+- Docker support for easy setup and execution
 
 ## Run locally with Docker
 
