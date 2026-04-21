@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  broken-link-checker:
+    build: .
+    container_name: broken-link-checker
+    ports:
+      - "8501:8501"
+    restart: unless-stopped
