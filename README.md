@@ -2,6 +2,10 @@
 
 A Python-based tool that crawls websites and automatically detects broken links. It checks both internal and external URLs, validates them efficiently, and presents results through an interactive dashboard.
 
+## Demo
+
+![Broken Link Checker demo](broken_link_demo.gif)
+
 ## Features
 - Crawl a website starting from a root URL
 - Check internal and external links
